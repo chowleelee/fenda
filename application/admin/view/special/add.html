@@ -1,0 +1,19 @@
+{include file='public/header'}
+
+	  <h3>添加专题</h3>
+
+     <form action="{:url('save')}" method="post">
+        <div class="form-group">
+            <label >专题名称</label>
+            <input type="text" class="form-control"  name="title">
+        </div>
+        <div class="form-group">
+            <label >专题讲师</label>
+            <input type="text" class="form-control"  name="introduce">
+        </div>       
+        <div class="form-group">
+             <input type="submit" value="添加" class="btn btn-info">
+        </div>
+     </form>
+
+{include file='public/footer'}
